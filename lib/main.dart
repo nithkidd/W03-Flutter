@@ -8,14 +8,12 @@ void main() {
   Quiz quiz = repository.readQuiz();
 
   quiz.questions.add(Question(
-    id: 'q3',
     title: 'What animal has 4 legs?',
     choices: ['Dog', 'Snake', 'Human'],
     goodChoice: 'Dog',
     points: 10,
   ));
   quiz.questions.add(Question(
-    id: 'q4',
     title: 'first alphabet?',
     choices: ['A', 'B', 'C'],
     goodChoice: 'A',
